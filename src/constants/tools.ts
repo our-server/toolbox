@@ -6,6 +6,7 @@ export const SLUGS = [
   "url-encoder-decoder",
   "whats-my-ip",
   "html-escape",
+  "yamlc",
 ] as const;
 
 export type Slug = (typeof SLUGS)[number];
@@ -52,6 +53,12 @@ export const TOOLS: Record<Slug, Tool> = {
     name: "HTML Escape",
     description: "Escape special characters in text for safe use in HTML.",
     slug: "html-escape",
+  },
+  yamlc: {
+    name: "Yet another markup language converter",
+    description:
+      "convert data from data from different markup languages like json and yaml into another",
+    slug: "yamlc",
   },
 };
 

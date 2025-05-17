@@ -194,6 +194,14 @@ export const HOME_PAGE_FAQ: Faq[] = [
   },
 ];
 
+export const YAMLC_FAQ: Faq[] = [
+  {
+    question: "why",
+    answer:
+      "sometimes you just get data in the wrong format. but this tool makes it easy to convert from one to anotehr",
+  },
+];
+
 export const Faqs: Record<Slug, Faq[]> = {
   "whats-my-ip": WHATS_MY_IP_FAQ,
   "password-generator": PASSWORD_GENERATOR_FAQ,
@@ -202,4 +210,5 @@ export const Faqs: Record<Slug, Faq[]> = {
   "base64-converter": BASE64_CONVERTER_FAQ,
   "url-encoder-decoder": URL_ENCODER_DECODER_FAQ,
   "html-escape": HTML_ESCAPE_FAQ,
+  yamlc: YAMLC_FAQ,
 };
